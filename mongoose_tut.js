@@ -33,3 +33,5 @@ const finding=async ()=>{
     console.log(result);
 }
 
+
+module.exports=mongoose.model("students",studschema);
